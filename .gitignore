@@ -1,0 +1,51 @@
+################################################################################
+# files
+################################################################################
+/.community
+/web
+/web/media
+/web_*/media
+
+*.swp
+*.tmproj
+._*
+.DS_Store
+.buildpath
+.project
+build.*
+deployment.properties
+deployment.xml
+dir_conflicts.prej
+npm-debug.log
+propel-build-model.log
+result_box.dat
+symfony.php
+Thumbs.db
+
+tags
+.tags
+.tags_sorted_by_file
+GPATH
+GRTAGS
+GTAGS
+
+################################################################################
+# folders
+################################################################################
+.idea/
+.settings/
+build/
+nbproject/
+node_modules/
+/web*/css/bootstrap/css
+
+# don't ignore all the dir named 'cache' underneath
+!cache/
+# but only ignore the one under application root
+/cache/
+
+log/
+/web/uploads/
+/web_*/uploads/
+/web/media/
+/web_*/media/
